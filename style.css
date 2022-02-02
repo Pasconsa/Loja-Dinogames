@@ -1,0 +1,16 @@
+body{
+    background: #cccccc
+}
+
+#dinogame{
+    width: 100%;
+    height: 550px;
+}
+
+p, h1{
+    text-align: center;
+}
+
+em strong{
+    color:red
+}
