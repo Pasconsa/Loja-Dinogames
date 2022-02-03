@@ -1,5 +1,5 @@
 body{
-    background: #cccccc
+    
 }
 
 #dinogame{
@@ -7,10 +7,42 @@ body{
     height: 550px;
 }
 
-p, h1{
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.principal{
+    background: #cccccc
+}
+
+.titulo-centro{
     text-align: center;
+}
+
+p{text-align: center;
 }
 
 em strong{
     color:red
 }
+
+.itens{
+    font-style:italic
+}
+
+.diferencial{
+    background:rgb(154, 145, 236);
+    padding: 20px
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width:20%;
+    margin-right: 5%;
+}  
+
+.fotogames{
+    width:50%
+}
+
