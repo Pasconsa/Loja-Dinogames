@@ -98,8 +98,7 @@ footer {
 
 
  main {
-    width: 940px;
-    margin: 0 auto;
+    
 }
 
 form {
@@ -146,15 +145,27 @@ form label, form legend {
     height: 550px
 }
 
-.titulo-centro{
+.titulo-principal{
     text-align:center;
     font-size: 2em;
     margin:0 0 1em;
     clear:left;
 }
 
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+
+.principal {
+   padding:3em 0; 
+   width: 940px;
+    margin: 0 auto;
+    background: #fefefe;
+}
+
 .principal p {
     margin:0 0 1em;
+    
 }
 
 .principal strong {
@@ -171,20 +182,55 @@ form label, form legend {
     margin:0 20px 20px 0 ;
 }
 
-.fotogames{
-    width: 60%
+.mapa{
+    padding: 3em 0; 
+    background: linear-gradient(#fefefe, #888888)
 }
 
-.mapa{
-    padding: 3em 0;
-}
-
-.mapa{
+.mapa p {
     margin:0 0 2em;
     text-align: center;
 }
 
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;  
+}
+
+.diferencial{
+    padding:3em 0;
+    background: #888888
+}
+
+.conteudo-diferencial{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferencial{
+    width:40%;
+    display: inline-block;
+    vertical-align:top
+}
+
+.itens {
+    line-height:1.5;
+}
+
+.itens:nth-child(2n) {
+    font-weight:bold;
+}
+
+.itens: before{
+    content: "="errrado;
+}
+
+.fotogames{
+    width: 60%
+}
+
+
 .video{
     width:560px;
-    margin: 1 em 0;
+    margin: 2em 0;
 }
